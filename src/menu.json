@@ -6,7 +6,7 @@
     "children": [
       {
         "name": "Pen",
-        "icon": "/home/brayden/Documents/git_cloned_dirs/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-tool-pencil.svg",
+        "icon": "/usr/share/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-tool-pencil.svg",
         "type": "Shortcut",
         "data": {
           "shortcut": "<Shift><Control>p"
@@ -15,7 +15,7 @@
       },
       {
         "name": "Hand Tool",
-        "icon": "/home/brayden/Documents/git_cloned_dirs/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-hand.svg",
+        "icon": "/usr/share/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-hand.svg",
         "type": "Shortcut",
         "data": {
           "shortcut": "<Shift><Control>a"
@@ -24,17 +24,17 @@
       },
       {
         "name": "Pen Edit",
-        "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/tool-pencil-edit.svg",
+        "icon": "/home/ale/.Xournalpp_FlyPie/resources/tool-pencil-edit.svg",
         "type": "CustomMenu",
         "children": [
           {
             "name": "Change Color",
-            "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/colors.svg",
+            "icon": "/home/ale/.Xournalpp_FlyPie/resources/colors.svg",
             "type": "CustomMenu",
             "children": [
               {
                 "name": "Black",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/black.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/black.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>q"
@@ -43,7 +43,7 @@
               },
               {
                 "name": "Green",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/green.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/green.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>w"
@@ -52,7 +52,7 @@
               },
               {
                 "name": "Light Blue",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/lightblue.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/lightblue.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>e"
@@ -61,7 +61,7 @@
               },
               {
                 "name": "Light Green",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/lightgreen.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/lightgreen.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Control><Alt>m"
@@ -70,7 +70,7 @@
               },
               {
                 "name": "Blue",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/blue.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/blue.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>t"
@@ -79,7 +79,7 @@
               },
               {
                 "name": "Gray",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/gray.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/gray.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>y"
@@ -88,7 +88,7 @@
               },
               {
                 "name": "Red",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/red.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/red.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>u"
@@ -97,7 +97,7 @@
               },
               {
                 "name": "Magenta",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/magenta.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/magenta.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>i"
@@ -106,7 +106,7 @@
               },
               {
                 "name": "Orange",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/orange.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/orange.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>o"
@@ -115,7 +115,7 @@
               },
               {
                 "name": "Yellow",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/yellow.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/yellow.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>p"
@@ -124,7 +124,7 @@
               },
               {
                 "name": "White",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/white.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/white.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>a"
@@ -133,16 +133,17 @@
               }
             ],
             "angle": -1,
-            "data": {}
+            "data": {},
+            "showLabels": false
           },
           {
             "name": "Change Thickness",
-            "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/thicknesses.svg",
+            "icon": "/home/ale/.Xournalpp_FlyPie/resources/thicknesses.svg",
             "type": "CustomMenu",
             "children": [
               {
                 "name": "Fine",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/fine.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/fine.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>d"
@@ -151,7 +152,7 @@
               },
               {
                 "name": "Medium",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/medium.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/medium.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>f"
@@ -160,7 +161,7 @@
               },
               {
                 "name": "Thick",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/thick.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/thick.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>g"
@@ -169,7 +170,7 @@
               },
               {
                 "name": "Very Thick",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/verythick.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/verythick.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>h"
@@ -178,7 +179,7 @@
               },
               {
                 "name": "Very Fine",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/veryfine.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/veryfine.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>s"
@@ -187,11 +188,12 @@
               }
             ],
             "angle": -1,
-            "data": {}
+            "data": {},
+            "showLabels": false
           },
           {
             "name": "Change Tool Type",
-            "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/pen_tools.svg",
+            "icon": "/home/ale/.Xournalpp_FlyPie/resources/pen_tools.svg",
             "type": "CustomMenu",
             "children": [
               {
@@ -232,11 +234,13 @@
               }
             ],
             "angle": -1,
-            "data": {}
+            "data": {},
+            "showLabels": false
           }
         ],
         "angle": -1,
-        "data": {}
+        "data": {},
+        "showLabels": false
       },
       {
         "name": "Stroke Recognizer",
@@ -249,7 +253,7 @@
       },
       {
         "name": "Shapes",
-        "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/shapes_menu.svg",
+        "icon": "/home/ale/.Xournalpp_FlyPie/resources/shapes_menu.svg",
         "type": "CustomMenu",
         "children": [
           {
@@ -284,7 +288,7 @@
             "icon": "/usr/share/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-draw-line.svg",
             "type": "Shortcut",
             "data": {
-              "shortcut": "<Control>6"
+              "shortcut": "<Control>7"
             },
             "angle": -1
           },
@@ -293,7 +297,7 @@
             "icon": "/usr/share/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-draw-coordinate-system.svg",
             "type": "Shortcut",
             "data": {
-              "shortcut": "<Control>5"
+              "shortcut": "<Control>6"
             },
             "angle": -1
           },
@@ -302,13 +306,14 @@
             "icon": "/usr/share/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-draw-spline.svg",
             "type": "Shortcut",
             "data": {
-              "shortcut": "<Control>7"
+              "shortcut": "<Control>8"
             },
             "angle": -1
           }
         ],
         "angle": -1,
-        "data": {}
+        "data": {},
+        "showLabels": false
       },
       {
         "name": "Vertical Space",
@@ -321,7 +326,7 @@
       },
       {
         "name": "Page Edit",
-        "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/page-edit.svg",
+        "icon": "/home/ale/.Xournalpp_FlyPie/resources/page-edit.svg",
         "type": "CustomMenu",
         "children": [
           {
@@ -329,7 +334,7 @@
             "icon": "/usr/share/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-page-delete.svg",
             "type": "Shortcut",
             "data": {
-              "shortcut": ""
+              "shortcut": "<Shift><Control>Delete"
             },
             "angle": -1
           },
@@ -338,13 +343,14 @@
             "icon": "/usr/share/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-page-add.svg",
             "type": "Shortcut",
             "data": {
-              "shortcut": ""
+              "shortcut": "<Control>d"
             },
             "angle": -1
           }
         ],
         "angle": -1,
-        "data": {}
+        "data": {},
+        "showLabels": false
       },
       {
         "name": "Highlight",
@@ -357,17 +363,17 @@
       },
       {
         "name": "Eraser Edit",
-        "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/tool-eraser-edit.svg",
+        "icon": "/home/ale/.Xournalpp_FlyPie/resources/tool-eraser-edit.svg",
         "type": "CustomMenu",
         "children": [
           {
             "name": "Change Thickness",
-            "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/thicknesses.svg",
+            "icon": "/home/ale/.Xournalpp_FlyPie/resources/thicknesses.svg",
             "type": "CustomMenu",
             "children": [
               {
                 "name": "Medium",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/medium.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/medium.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>l"
@@ -376,7 +382,7 @@
               },
               {
                 "name": "Thick",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/thick.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/thick.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>z"
@@ -385,7 +391,7 @@
               },
               {
                 "name": "Very Thick",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/verythick.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/verythick.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>x"
@@ -394,7 +400,7 @@
               },
               {
                 "name": "Very Fine",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/veryfine.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/veryfine.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>j"
@@ -403,7 +409,7 @@
               },
               {
                 "name": "Fine",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/fine.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/fine.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Control><Alt>k"
@@ -411,11 +417,13 @@
                 "angle": -1
               }
             ],
-            "angle": -1
+            "angle": -1,
+            "data": {},
+            "showLabels": false
           },
           {
             "name": "Change Tool",
-            "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/eraser_tools.svg",
+            "icon": "/home/ale/.Xournalpp_FlyPie/resources/eraser_tools.svg",
             "type": "CustomMenu",
             "children": [
               {
@@ -429,7 +437,7 @@
               },
               {
                 "name": "Delete Stroke",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/delete_stroke.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/delete_stroke.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Alt>w"
@@ -438,7 +446,7 @@
               },
               {
                 "name": "Whiteout",
-                "icon": "/home/brayden/Documents/git_cloned_dirs/Xournalpp_FlyPie/resources/whiteout.svg",
+                "icon": "/home/ale/.Xournalpp_FlyPie/resources/whiteout.svg",
                 "type": "Shortcut",
                 "data": {
                   "shortcut": "<Shift><Alt>q"
@@ -446,15 +454,18 @@
                 "angle": -1
               }
             ],
-            "angle": -1
+            "angle": -1,
+            "data": {},
+            "showLabels": false
           }
         ],
         "angle": -1,
-        "data": {}
+        "data": {},
+        "showLabels": false
       },
       {
         "name": "Eraser",
-        "icon": "/home/brayden/Documents/git_cloned_dirs/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-tool-eraser.svg",
+        "icon": "/usr/share/xournalpp/ui/iconsColor-dark/hicolor/scalable/actions/xopp-tool-eraser.svg",
         "type": "Shortcut",
         "data": {
           "shortcut": "<Shift><Control>e"
@@ -463,11 +474,12 @@
       }
     ],
     "id": 1,
-    "shortcut": "<Shift><Control><Super>plusminus",
+    "shortcut": "<Shift><Control>section",
     "angle": -1,
     "touchButton": false,
     "superRMB": false,
     "data": {},
-    "centered": false
+    "centered": false,
+    "showLabels": false
   }
 ]
